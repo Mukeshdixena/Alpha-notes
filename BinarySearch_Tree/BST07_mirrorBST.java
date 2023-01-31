@@ -1,19 +1,19 @@
 
 package BinarySearch_Tree;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    Node(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-}
 
 public class BST07_mirrorBST {
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+    
+        Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
     Node root;
 
     BST07_mirrorBST() {

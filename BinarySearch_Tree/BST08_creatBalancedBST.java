@@ -2,19 +2,19 @@ package BinarySearch_Tree;
 
 import java.util.*;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    Node(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class BST08_creatBalancedBST {
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
+
     Node root;
 
     BST08_creatBalancedBST() {
