@@ -63,7 +63,6 @@ public class G10_topSortBFS {
             }
         }
     }
-
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         int v = 6;
