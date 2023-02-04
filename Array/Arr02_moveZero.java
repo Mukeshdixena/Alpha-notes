@@ -1,4 +1,4 @@
-package Revision.Array;
+package Array;
 
 class Arr02_moveZero {
 
