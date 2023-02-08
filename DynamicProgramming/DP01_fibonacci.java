@@ -4,7 +4,8 @@ public class DP01_fibonacci {
 
     static int memoization(int n, int dp[]) { // top down
         if (n < 2) {
-            return n;
+            dp[n] = n;
+            return dp[n];
         }
         if (dp[n] != 0) {
             return dp[n];
@@ -20,5 +21,14 @@ public class DP01_fibonacci {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[n];
+    }
+    public static void main(String[] args) {
+        int n = 10;
+        int dp[] = new int[n+1];
+        memoization(n, dp);
+        for (int i = 0; i < dp.length; i++) {
+            System.out.print(dp[i] + " ");
+        }
+        System.out.println();
     }
 }
