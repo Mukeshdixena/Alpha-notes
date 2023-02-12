@@ -29,28 +29,6 @@ public class DP04_knapsack {
         return dp[n][w];
     }
 
-    static void tabulation2(int val[], int wt[], int w) {
-        int dp[][] = new int[val.length + 1][w + 1];
-
-        for (int i = 1; i < dp.length; i++) {
-            for (int j = 1; j < dp[0].length; j++) {
-                if (wt[i - 1] <= j) {
-                    // System.out.print("here");
-                    dp[i][j] = Math.max(dp[i - 1][j], val[i - 1] + dp[i - 1][j - 1]);
-                } else {
-                    dp[i][j] = dp[i - 1][j];
-                }
-            }
-        }
-        // return dp[val.length-1][w-1];
-        for (int i = 0; i < dp.length; i++) {
-            for (int j = 0; j < dp[0].length; j++) {
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-
     static void tabulation(int val[], int wt[], int W) {
         int dp[][] = new int[val.length + 1][W + 1];
 
