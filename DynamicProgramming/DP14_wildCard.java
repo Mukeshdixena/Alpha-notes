@@ -1,7 +1,7 @@
 package DynamicProgramming;
 
 public class DP14_wildCard {
-    static void tabulatiion(String s, String p) {
+    static boolean tabulatiion(String s, String p) {
         boolean dp[][] = new boolean[s.length() + 1][p.length() + 1];
         dp[0][0] = true;
         for (int i = 1; i < dp.length; i++) {
@@ -23,7 +23,8 @@ public class DP14_wildCard {
                 }
             }
         }
-        printDp(dp);
+        // printDp(dp);
+        return dp[s.length()][p.length()];
     }
 
     static void printDp(boolean dp[][]) {
@@ -40,6 +41,6 @@ public class DP14_wildCard {
     }
 
     public static void main(String[] args) {
-        tabulatiion("dp", "**?p*");
+        System.out.println(tabulatiion("abc", "a*b*"));
     }
 }
