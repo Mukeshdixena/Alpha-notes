@@ -10,6 +10,8 @@ public class DP14_wildCard {
         for (int j = 1; j < dp[0].length; j++) {
             if (p.charAt(j-1) == '*') {
                 dp[0][j] = dp[0][j - 1];
+            }else{
+                dp[0][j] = false;
             }
         }
         for (int i = 1; i < dp.length; i++) {
