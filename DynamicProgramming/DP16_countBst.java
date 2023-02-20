@@ -1,6 +1,6 @@
 package DynamicProgramming;
 
-public class DP19_countBst {
+public class DP16_countBst {
 
     static int tabulatiion(int n) {
         int dp[] = new int[n + 1];
