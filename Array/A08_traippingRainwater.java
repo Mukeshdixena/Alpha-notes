@@ -25,4 +25,28 @@ public class A08_traippingRainwater {
         }
         return totalWater;
     }
+    
+    
+    // two pointer aproach
+    static int traipedWater2(int height[]){
+        int res = 0, l = 0, r = height.length - 1;
+        int rmax = height[r], lmax = height[l];
+        while(l < r){
+            if(height[l] < height[r]){
+                l++;                                
+                lmax = Math.max(lmax, height[l]);  
+                res += height[l] - lmax;  
+//                 if (lmax < height[l]) {    
+//                      lmax = height[l];
+//                 } else {
+//                      res += height[i] - lmax;
+//                 }
+            }else{                                  
+                r--;                               
+                rmax = Math.max(rmax, height[r]);  
+                res += height[r] = rmax;
+            }
+        }
+        return res;
+    }
 }
