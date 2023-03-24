@@ -5,20 +5,24 @@ import java.util.*;
 public class S05_reversStr {
     public static void main(String[] args) {
         String str = "Mukesh";
-        Stack<Character> s = new Stack<>();
-        for (int i = 0; i < str.length(); i++) {
-            s.push(str.charAt(i));
-        }
-        System.out.println(reversStr(s));
+        System.out.println(reversStr(str));
+
     }
 
-    public static StringBuilder reversStr(Stack<Character> s) {
+    public static String reversStr(String str) {
         StringBuilder ans = new StringBuilder("");
+        Stack<Character> s = new Stack<>();
+        int i = 0;
+        while (i < str.length()) {
+            s.push(str.charAt(i++));
+
+        }
 
         while (!s.isEmpty()) {
-            char ch = s.pop();
-            ans.append(ch);
+            ans.append(s.pop());
         }
-        return ans;
+
+        return ans.toString();
+
     }
 }
