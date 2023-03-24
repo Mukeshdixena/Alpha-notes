@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A07_max_subArr_sum {
     static int bruteForce(int arr[]) {

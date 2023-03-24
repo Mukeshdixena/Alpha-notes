@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A02_largest_in_array {
     static int largestNum(int arr[]) {

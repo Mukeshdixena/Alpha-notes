@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A05_All_pairs_int_Array {
     static void printPairs(int arr[]) {

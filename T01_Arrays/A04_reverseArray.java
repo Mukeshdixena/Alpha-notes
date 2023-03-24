@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A04_reverseArray {
     static void reverseArray(int arr[]) {

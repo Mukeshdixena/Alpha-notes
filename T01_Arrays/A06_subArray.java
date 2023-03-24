@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A06_subArray {
     static void printSubArrays(int arr[]){

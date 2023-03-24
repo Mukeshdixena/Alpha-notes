@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 class Arr02_moveZero {
 

@@ -1,6 +1,6 @@
 // input: nums = [4,5,6,7,0,1,2] , target = 0;
 // output: 4 (index of 0)
-package Array;
+package T01_Arrays;
 
 public class AQ02_search_in_rotetedArray {
 

@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A08_traippingRainwater {
     static int traipedWater(int height[]) {

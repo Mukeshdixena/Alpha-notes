@@ -1,4 +1,4 @@
-package Array;
+package T01_Arrays;
 
 public class A09_maxProfit {
     static int maxProfit(int prices[]) {
