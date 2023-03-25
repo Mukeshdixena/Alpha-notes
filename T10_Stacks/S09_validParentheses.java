@@ -21,7 +21,7 @@ public class S09_validParentheses {
                         || (s.peek() == '[' && str.charAt(i) == ']')) {
                     s.pop();
                 } else {
-                    return true;
+                    return false;
                 }
 
             }
