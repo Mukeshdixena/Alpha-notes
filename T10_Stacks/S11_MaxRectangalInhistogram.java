@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class S11_MaxRectangalInhistogram {
     public static void main(String[] args) {
-        int arr[] = { 2, 4 };
+        int arr[] = { 2, 1, 5, 6, 2, 3 };
         printArr(arr);
         System.out.println(maxRectangal(arr));
     }
@@ -39,7 +39,7 @@ public class S11_MaxRectangalInhistogram {
             }
             s.push(i);
         }
-        printArr(ans);
+        // printArr(ans);
         return ans;
 
     }
@@ -59,7 +59,7 @@ public class S11_MaxRectangalInhistogram {
             }
             s.push(i);
         }
-        printArr(ans);
+        // printArr(ans);
         return ans;
 
     }
