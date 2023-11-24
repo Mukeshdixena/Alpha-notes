@@ -1,5 +1,5 @@
 package T02_String;
-public class LargestString {
+public class S10_largest_string {
 
     public static String largeString(String str[]){
 

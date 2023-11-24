@@ -1,5 +1,5 @@
 package T02_String;
-public class StringComparison {
+public class S08_string_comparison {
     public static void main(String[] args) {
         String s1 = "Mukesh";
         String s2 = "Mukesh";

@@ -1,5 +1,5 @@
 package T02_String;
-public class SubstringFunction {
+public class S09_substring_function {
 
     public static String subString(String str, int si, int ei) {
         String subStr = "";

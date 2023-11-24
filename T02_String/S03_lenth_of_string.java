@@ -1,5 +1,5 @@
 package T02_String;
-public class StringLenth {
+public class S03_lenth_of_string {
     public static void main(String[] args) {
         String str = "agblsfl";
 

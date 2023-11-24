@@ -1,7 +1,7 @@
 package T02_String;
 import java.util.Scanner;
 
-public class InputOutput {
+public class S02_Input_output {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

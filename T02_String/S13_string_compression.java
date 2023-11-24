@@ -1,7 +1,7 @@
 package T02_String;
 import java.util.Scanner;
 
-public class StringCompression {
+public class S13_string_compression {
 
     public static StringBuilder strCompres(String str) {
 

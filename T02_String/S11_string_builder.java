@@ -1,5 +1,5 @@
 package T02_String;
-public class StrBuilder {
+public class S11_string_builder {
     public static void main(String[] args) {
         StringBuilder strb = new StringBuilder("");
         StringBuilder strb2 = new StringBuilder();//both are same

@@ -1,5 +1,5 @@
 package T02_String;
-public class StringCharAt {
+public class S05_charAtMethod {
     public static void printCharacter(String s) {
 
         for (int i = 0; i < s.length(); i++) {

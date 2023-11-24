@@ -1,7 +1,7 @@
 package T02_String;
 import java.util.Scanner;
 
-public class IsStringPalindrome {
+public class S06_isStringPalindrome {
 
     public static boolean isPalindrome(String s) {
         if (s.length() < 2) {

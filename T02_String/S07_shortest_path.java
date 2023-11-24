@@ -1,7 +1,7 @@
 package T02_String;
 import java.util.Scanner;
 
-public class ShortestPath {
+public class S07_shortest_path {
 
     public static float shortestPath(String s){
         int x = 0;

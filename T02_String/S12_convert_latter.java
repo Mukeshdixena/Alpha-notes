@@ -1,7 +1,7 @@
 package T02_String;
 import java.util.Scanner;
 
-public class ConvertLatter {
+public class S12_convert_latter {
 
     public static StringBuilder strUpper(String str) {
 

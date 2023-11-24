@@ -1,5 +1,5 @@
 package T02_String;
-public class WhatAreString {
+public class S01_what_are_string {
 
     public static void main(String[] args) {
         char arr[] = {'a', 'b', 'c'};

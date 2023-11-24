@@ -1,5 +1,5 @@
 package T02_String;
-public class StringConcatenate {
+public class S04_stringConcatenate {
     public static void main(String[] args) {
         String firstName = "Mukesh";
         String lastName = "Dixena";
