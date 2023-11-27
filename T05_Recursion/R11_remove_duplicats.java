@@ -1,7 +1,7 @@
 package T05_Recursion;
 
 
-public class RemoveDuplicats {
+public class R11_remove_duplicats {
     public static void main(String[] args) {
         removeDuplicats("appnacollege", 0, new StringBuilder(), new boolean[26]);
     }

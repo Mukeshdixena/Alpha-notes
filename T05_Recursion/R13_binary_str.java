@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class BinaryStr {
+public class R13_binary_str {
     public static void main(String[] args) {
         printStr(5, 0, "");
     }

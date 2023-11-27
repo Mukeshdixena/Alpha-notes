@@ -2,7 +2,7 @@ package T05_Recursion;
 
 import java.util.Scanner;
 
-public class SumOfNumbers {
+public class R04_sum_of_numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

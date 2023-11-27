@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class NumCall {
+public class RQ02_num_call {
 
     static String digit[] = { "Zero", "one", "two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
 

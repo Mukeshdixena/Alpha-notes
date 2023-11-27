@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class TowerOfHunai {
+public class RQ05_tower_of_hunai {
 
     public static void towerOfHanoi(int n, char s, char h, char d) {
         if (n == 1) {

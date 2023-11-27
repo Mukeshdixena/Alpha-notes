@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class FriendPairing {
+public class R12_friend_pairing {
     public static void main(String[] args) {
         System.out.println(pairing(4));
     }

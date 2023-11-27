@@ -2,7 +2,7 @@ package T05_Recursion;
 
 import java.util.Scanner;
 
-public class IncreasingOrder {
+public class R02_print_in_Increasing_order {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

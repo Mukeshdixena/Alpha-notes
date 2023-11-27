@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class Tiling {
+public class R10_tiling {
     public static void main(String[] args) {
         int n = 3;
         System.out.println(tilingfor2xn(n));

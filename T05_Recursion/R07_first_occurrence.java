@@ -1,9 +1,9 @@
 package T05_Recursion;
 
-public class LastOccurrence {
+public class R07_first_occurrence {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 4, 2, 1, 3, 5, 3, 5, 3, 4, 4 };
-        System.out.println(firOccr(arr, 15, 0));
+        System.out.println(firOccr(arr, 4, 0));
 
     }
 
@@ -11,8 +11,8 @@ public class LastOccurrence {
         if (i == arr.length) {
             return -1;
         }
-        if (arr[arr.length - 1 - i] == k) {
-            return arr.length - 1 - i;
+        if (arr[i] == k) {
+            return i;
         }
 
         return firOccr(arr, k, i + 1);

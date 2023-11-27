@@ -1,6 +1,6 @@
 package T05_Recursion;
 
-public class LengthOfString {
+public class RQ03_length_of_string {
     public static void main(String[] args) {
         String str = "What is the length ";
         length(str, 0);
