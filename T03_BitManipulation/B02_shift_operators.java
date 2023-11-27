@@ -2,7 +2,7 @@ package T03_BitManipulation;
 
 import java.util.Scanner;
 
-public class ShiftOperators {
+public class B02_shift_operators {
 
     public static int leftShift(int n, int i) {
         

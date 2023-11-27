@@ -2,7 +2,7 @@ package T03_BitManipulation;
 
 import java.util.Scanner;
 
-public class OddOrEven {
+public class BQ01_odd_even {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

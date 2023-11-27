@@ -2,7 +2,7 @@ package T03_BitManipulation;
 
 // import javax.sql.rowset.spi.SyncResolver;
 
-public class swapNumber {
+public class BQ02_swap_number {
     public static void main(String[] args) {
         int a = 3;
         int b = 4;

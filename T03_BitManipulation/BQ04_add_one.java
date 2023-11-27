@@ -2,7 +2,7 @@ package T03_BitManipulation;
 
 // import java.util.Scanner;
 
-public class AddOne {
+public class BQ04_add_one {
     // public static int addOne(int n) {
     //     int i = 0;
     //     while (n != 0) {

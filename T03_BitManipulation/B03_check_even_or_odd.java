@@ -2,7 +2,7 @@ package T03_BitManipulation;
 
 import java.util.Scanner;
 
-public class IsEvenOrOdd {
+public class B03_check_even_or_odd {
     
     public static boolean isEven(int n){
         return (n&1) == 0;
