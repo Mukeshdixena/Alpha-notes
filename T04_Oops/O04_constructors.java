@@ -1,6 +1,6 @@
 package T04_Oops;
 
-public class Constructors {
+public class O04_constructors {
     public static void main(String[] args) {
         InnerConstructors in = new InnerConstructors();
         InnerConstructors in1 = new InnerConstructors(12);
@@ -12,9 +12,7 @@ public class Constructors {
     }
 }
 
-/**
- * InnerConstructors
- */
+
 class InnerConstructors {
     int age;
     String name;

@@ -1,6 +1,6 @@
 package T04_Oops;
 
-public class AccessModefire {
+public class O02_access_modefire {
     public static void main(String[] args) {
         student chintu = new student();
         // chintu.age = 20; can't access

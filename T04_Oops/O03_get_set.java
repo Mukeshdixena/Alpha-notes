@@ -1,6 +1,6 @@
 package T04_Oops;
 
-public class getset {
+public class O03_get_set {
     public static void main(String[] args) {
         BankEmploye b1 = new BankEmploye();
         b1.setPassword("pass");
