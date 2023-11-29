@@ -1,6 +1,6 @@
 package T06_DividAndConquer;
 
-public class MergeSort {
+public class D01_merge_sort {
 
     public static void printArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
