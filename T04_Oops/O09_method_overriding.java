@@ -7,13 +7,13 @@ public class O09_method_overriding {
     }
 }
 
-class Animal{
+class Animal_09{
     void eat(){
         System.out.println("anything");
     }
 }
 
-class Deer extends Animal {
+class Deer extends Animal_09 {
     void eat(){
         System.out.println("grass");
     }

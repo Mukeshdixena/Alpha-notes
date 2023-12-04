@@ -2,7 +2,7 @@ package T08_ArrayListInJava;
 
 import java.util.ArrayList;
 
-public class SizeOfArrayList {
+public class A02_size_of_ArrayList {
     public static void main(String[] args) {
         ArrayList<Character> ch = new ArrayList<>();
         ch.add('a');

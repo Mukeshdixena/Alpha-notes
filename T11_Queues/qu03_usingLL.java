@@ -2,7 +2,7 @@ package T11_Queues;
 
 public class qu03_usingLL {
     public static void main(String[] args) {
-        queue q = new queue();
+        queue_3 q = new queue_3();
         q.add(1);
         q.add(2);
         q.add(3);
@@ -26,7 +26,7 @@ class Node {
     }
 }
 
-class queue {
+class queue_3 {
     static Node head;
     static Node tail;
 
@@ -47,12 +47,15 @@ class queue {
     }
 
     void remove() {
-        if (isEmpty() && head == null) {
+        if (isEmpty()) {
             System.out.println("que is emply");
 
         }
 
         head = head.next;
+        if (head == null) {
+            tail = null;
+        }
 
     }
 

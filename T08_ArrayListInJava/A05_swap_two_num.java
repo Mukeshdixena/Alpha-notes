@@ -2,7 +2,7 @@ package T08_ArrayListInJava;
 
 import java.util.ArrayList;
 
-public class SwapTwoNum {
+public class A05_swap_two_num {
     public static void main(String[] args) {
         ArrayList<Integer> ll = new ArrayList<>();
         ll.add(1);
