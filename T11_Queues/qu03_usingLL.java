@@ -2,7 +2,7 @@ package T11_Queues;
 
 public class qu03_usingLL {
     public static void main(String[] args) {
-        queue q = new queue();
+        queue03 q = new queue03();
         q.add(1);
         q.add(2);
         q.add(3);
@@ -26,7 +26,7 @@ class Node {
     }
 }
 
-class queue {
+class queue03 {
     static Node head;
     static Node tail;
 

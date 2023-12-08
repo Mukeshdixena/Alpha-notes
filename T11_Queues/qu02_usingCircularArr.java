@@ -3,7 +3,7 @@ package T11_Queues;
 public class qu02_usingCircularArr {
 
     public static void main(String[] args) {
-        Queue qu = new Queue(5);
+        queue02 qu = new queue02(5);
         qu.add(1);
         qu.add(2);
         qu.add(3);
@@ -14,13 +14,13 @@ public class qu02_usingCircularArr {
     }
 }
 
-class Queue {
+class queue02 {
     static int arr[];
     static int size;
     static int rear;
     static int front;
 
-    Queue(int n) {
+    queue02(int n) {
         arr = new int[n];
         size = n;
         rear = -1;

@@ -3,7 +3,64 @@ package T11_Queues;
 import java.util.*;
 
 class qu05_usingStack {
-    static class Queue {
+
+    static class Queue052 { // peek & poll O(n) && push O(1)
+        Stack<Integer> s1 = new Stack<>();
+        Stack<Integer> s2 = new Stack<>();
+
+        boolean isEmpty() {
+            return s1.isEmpty();
+        }
+
+        void push(Integer e) {
+            s1.push(e);
+        }
+
+        Integer peek() {
+
+            // move all element from s1 to s2
+            while (!s1.isEmpty()) {
+                Integer temp = s1.pop();
+                s2.push(temp);
+            }
+
+            // peak element is top to the s2
+
+            Integer peekEle = s2.peek();
+
+            // move all element from s2 to s1
+
+            while (!s2.isEmpty()) {
+                Integer temp = s2.pop();
+                s1.push(temp);
+            }
+            return peekEle;
+        }
+
+        Integer poll() {
+
+            // move all element from s1 to s2
+            while (!s1.isEmpty()) {
+                Integer temp = s1.pop();
+                s2.push(temp);
+            }
+
+            // peak element is top to the s2
+
+            Integer peekEle = s2.pop();
+
+            // move all element from s2 to s1
+
+            while (!s2.isEmpty()) {
+                Integer temp = s2.pop();
+                s1.push(temp);
+            }
+            return peekEle;
+        }
+
+    }
+
+    static class Queue051 { // push O(n) && peek & poll O(1)
         static Stack<Integer> s1 = new Stack<Integer>();
         static Stack<Integer> s2 = new Stack<Integer>();
 
@@ -28,7 +85,7 @@ class qu05_usingStack {
             }
         }
 
-        // remove an item from the queue
+        // remove an item from the queue051
         int remove() {
             // if first stack is empty
             if (s1.isEmpty()) {
@@ -57,7 +114,7 @@ class qu05_usingStack {
 
     // Driver code
     public static void main(String[] args) {
-        Queue q = new Queue();
+        Queue051 q = new Queue051();
         q.add(1);
         q.add(2);
         q.add(3);
