@@ -3,7 +3,7 @@ package T08_ArrayListInJava;
 import java.util.*;
 // package ArrayList;
 
-public class Oprations {
+public class A01_oprations {
 
     public static void main(String[] args) {
 

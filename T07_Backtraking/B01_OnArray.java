@@ -1,6 +1,6 @@
 package T07_Backtraking;
 
-public class OnArray {
+public class B01_OnArray {
 
     public static void main(String[] args) {
         int arr[] = new int[10];
@@ -15,7 +15,7 @@ public class OnArray {
         }
         arr[i] = value;
         backtraking(arr, i + 1, value + 1);
-        arr[i] = i - 2;
+        arr[i] = value - 2;
     }
 
     public static void printArr(int arr[]) {

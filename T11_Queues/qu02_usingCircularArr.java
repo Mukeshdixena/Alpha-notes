@@ -14,11 +14,19 @@ public class qu02_usingCircularArr {
     }
 }
 
+<<<<<<< HEAD
 class queue02 {
     static int arr[];
     static int size;
     static int rear;
     static int front;
+=======
+class Queue {
+    int arr[];
+    int size;
+    int rear;
+    int front;
+>>>>>>> d93b1d9096354e37d5367d92966e1cc517847122
 
     queue02(int n) {
         arr = new int[n];
@@ -32,7 +40,7 @@ class queue02 {
     }
 
     boolean isfull() {
-        return rear + 1 == front;
+        return (rear + 1) % size == front;
     }
 
     void add(int data) {

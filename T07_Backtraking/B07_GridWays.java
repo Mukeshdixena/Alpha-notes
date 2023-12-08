@@ -2,7 +2,7 @@ package T07_Backtraking;
 
 import java.util.Scanner;
 
-public class GridWays {
+public class B07_GridWays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

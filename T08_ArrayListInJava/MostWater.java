@@ -24,7 +24,7 @@ public class MostWater {
             for (int j = i + 1; j < ll.size(); j++) {
                 int temp = j - i;
                 temp *= (ll.get(i) > ll.get(j)) ? ll.get(j) : ll.get(i);
-                ans = (temp > ans) ? temp : ans;
+                ans = (temp > ans) ? temp : ans; 
             }
         }
         return ans;
