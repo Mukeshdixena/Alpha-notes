@@ -2,7 +2,7 @@ package T13_Binary_Tree;
 
 import java.util.ArrayList;
 
-public class BT13_lcm {
+public class BT13_lca {
     static class Node {
         int data;
         Node left;
@@ -17,7 +17,7 @@ public class BT13_lcm {
 
     Node root;
 
-    BT13_lcm() {
+    BT13_lca() {
         root = null;
     }
 
@@ -77,7 +77,7 @@ public class BT13_lcm {
     }
 
     public static void main(String[] args) {
-        BT13_lcm tree = new BT13_lcm();
+        BT13_lca tree = new BT13_lca();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);

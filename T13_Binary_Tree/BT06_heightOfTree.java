@@ -63,7 +63,9 @@ public class BT06_heightOfTree {
             if (root == null) {
                 return 0;
             }
-            return 1 + Math.max(heightOfTree(root.leftNode), heightOfTree(root.rightNode));
+            int leftHeight = heightOfTree(root.leftNode);
+            int rightHeight = heightOfTree(root.rightNode);
+            return 1 + Math.max(leftHeight, rightHeight);
         }
 
     }

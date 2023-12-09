@@ -34,6 +34,19 @@ public class BST08_creatBalancedBST {
         return root;
     }
 
+    Node creatBalancedBST(int values[], int s, int e) {
+        if (s > e) {
+            return null;
+        }
+        int mid = (s + e) / 2;
+
+        Node root = new Node(values[mid]);
+        root.left = creatBalancedBST(values, s, mid - 1);
+        root.right = creatBalancedBST(values, mid + 1, e);
+
+        return root;
+    }
+
     void levelOrder(Node root) {
         if (root == null) {
             return;
