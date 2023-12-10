@@ -45,7 +45,6 @@ public class BT05_levelorderTraversal {
                         break;
                     } else {
                         q.add(null);
-                        
                     }
                 } else {
                     System.out.print(currNode.data + " ");

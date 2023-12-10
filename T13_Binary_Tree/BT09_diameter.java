@@ -120,6 +120,7 @@ public class BT09_diameter {
             info leftInfo = diameter2(root.leftNode);
             int curdimeter = Math.max(Math.max(rightInfo.diameter, leftInfo.diameter),
                     rightInfo.height + leftInfo.height + 1);
+                    
             int curheight = Math.max(rightInfo.height, leftInfo.height) + 1;
             return new info(curdimeter, curheight);
         }

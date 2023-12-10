@@ -12,6 +12,7 @@ public class HM02_itration {
         hm.put("Nepal", 5);
 
         Set<String> keys = hm.keySet();
+        // Set<String> keys = hm.entrySet();
 
         for (String k : keys) {
             System.out.println("keys : " + k + " value : " + hm.get(k));

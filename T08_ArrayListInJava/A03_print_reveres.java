@@ -2,7 +2,7 @@ package T08_ArrayListInJava;
 
 import java.util.ArrayList;
 
-public class PrintReveres {
+public class A03_print_reveres {
 
     public static void main(String[] args) {
         ArrayList<Integer> foo = new ArrayList<Integer>();

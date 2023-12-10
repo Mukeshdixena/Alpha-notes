@@ -2,7 +2,11 @@ package T11_Queues;
 
 public class qu03_usingLL {
     public static void main(String[] args) {
+<<<<<<< HEAD
         queue03 q = new queue03();
+=======
+        queue_3 q = new queue_3();
+>>>>>>> d2f8c5f5f9d3a286e238c104e7610c72b5819f62
         q.add(1);
         q.add(2);
         q.add(3);
@@ -26,7 +30,11 @@ class Node {
     }
 }
 
+<<<<<<< HEAD
 class queue03 {
+=======
+class queue_3 {
+>>>>>>> d2f8c5f5f9d3a286e238c104e7610c72b5819f62
     static Node head;
     static Node tail;
 
@@ -47,12 +55,15 @@ class queue03 {
     }
 
     void remove() {
-        if (isEmpty() && head == null) {
+        if (isEmpty()) {
             System.out.println("que is emply");
 
         }
 
         head = head.next;
+        if (head == null) {
+            tail = null;
+        }
 
     }
 

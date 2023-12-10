@@ -1,10 +1,10 @@
 package T06_DividAndConquer;
 
-public class QuickSort {
+public class D02_quick_sort {
     public static void main(String[] args) {
         int arr[] = { 1, 5, 4, 2, 3, 4, 2, 2, 4, 5, 3 };
         sort(arr, 0, arr.length - 1);
-        MergeSort.printArr(arr);
+        D01_merge_sort.printArr(arr);
     }
 
     public static void sort(int arr[], int si, int ei) {
@@ -19,11 +19,11 @@ public class QuickSort {
     }
 
     public static int partition(int arr[], int si, int ei) {
-        // int pivot = arr[ei];
+        int pivot = arr[ei];
         int i = si - 1;
 
-        for (int j = si; j < ei; j++) {
-            if (arr[j] <= arr[ei]) {
+        for (int j = si; j <= ei - 1; j++) {
+            if (arr[j] <= pivot) {
                 i++;
                 if (i != j) {
                     arr[i] ^= arr[j]; //swap
@@ -37,7 +37,6 @@ public class QuickSort {
             arr[ei] ^= arr[i]; //swap
             arr[i] ^= arr[ei];
             arr[ei] ^= arr[i];
-
         }
         return i;
     }

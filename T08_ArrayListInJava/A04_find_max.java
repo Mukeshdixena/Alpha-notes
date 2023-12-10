@@ -2,7 +2,7 @@ package T08_ArrayListInJava;
 
 import java.util.ArrayList;
 
-public class FindMax {
+public class A04_find_max {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(3);

@@ -2,7 +2,7 @@ package T07_Backtraking;
 
 import java.util.Scanner;
 
-public class NQueenAllSolution {
+public class B05_NQueenAllSolution {
 
     static int count = 0;
 

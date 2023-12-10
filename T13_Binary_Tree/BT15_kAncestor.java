@@ -32,7 +32,7 @@ public class BT15_kAncestor {
         if (leftDist == -1 && rightDist == -1) {
             return -1;
         }
-
+        // anyone of this is -1
         int max = Math.max(leftDist, rightDist);
 
         if (max + 1 == k) {

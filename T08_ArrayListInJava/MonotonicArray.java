@@ -26,7 +26,6 @@ public class MonotonicArray {
             if (ll.get(i) > ll.get(i + 1)) {
                 ans2 = false;
             }
-
         }
         return ans1 || ans2;
     }

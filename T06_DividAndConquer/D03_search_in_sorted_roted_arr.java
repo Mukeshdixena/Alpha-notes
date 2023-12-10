@@ -1,8 +1,8 @@
 package T06_DividAndConquer;
 
-public class RotatedSortedArr {
+public class D03_search_in_sorted_roted_arr {
 
-    public static int search(int arr[], int k, int si, int ei) {
+     static int search(int arr[], int k, int si, int ei) {
         if (si > ei) {
             return -1;
         }
@@ -27,12 +27,5 @@ public class RotatedSortedArr {
     public static void main(String[] args) {
         int arr[] = { 4, 5, 6, 7, 0, 1, 2, 3 };
         System.out.println(search(arr, 4, 0, arr.length - 1));
-        System.out.println(search(arr, 5, 0, arr.length - 1));
-        System.out.println(search(arr, 6, 0, arr.length - 1));
-        System.out.println(search(arr, 7, 0, arr.length - 1));
-        System.out.println(search(arr, 0, 0, arr.length - 1));
-        System.out.println(search(arr, 2, 0, arr.length - 1));
-        System.out.println(search(arr, 3, 0, arr.length - 1));
-        System.out.println(search(arr, 9, 0, arr.length - 1));
     }
 }

@@ -1,7 +1,7 @@
 package T11_Queues;
 
-import java.util.*;
-
+import java.util.Queue;
+import java.util.LinkedList;
 public class qu06_stack_using_Queue {
 
 }

@@ -1,9 +1,9 @@
 package T07_Backtraking;
 
-public class FindSubSet {
+public class B02_FindSubSet {
 
     public static void main(String[] args) {
-        subSet("ab", "", 0);
+        subSet("abc", "", 0);
     }
 
     public static void subSet(String str, String ans, int i) {

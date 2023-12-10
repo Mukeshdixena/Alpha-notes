@@ -3,7 +3,7 @@ package T08_ArrayListInJava;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Sort {
+public class A06_sorting {
     public static void main(String[] args) {
         ArrayList<Integer> ll = new ArrayList<>();
         ll.add(4);
